@@ -43,5 +43,8 @@ export const Card = styled.h3`
   @media (max-width: 767px) {
     height: 10vh;
     font-size: 4vw;
+    div {
+      max-width: 130px;
+    }
   }
 `;

@@ -29,14 +29,13 @@ import {
   BottomSection,
   Card,
   ClockWrapper,
-  Title,
   PostTitle,
   Body,
   SectionTitle,
-} from "../../styles/userProfile";
-import { Modal } from "../../modal";
-import useGet from "../../hooks/useGet";
-import Loader from "../../component/loader";
+} from "styles/userProfile";
+import useGet from "hooks/useGet";
+import Loader from "component/loader";
+import { Modal } from "modal";
 
 const Profile = () => {
   const [userData, setUserData] = useState({});

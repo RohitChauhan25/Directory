@@ -7,10 +7,10 @@ import {
   UserWrapper,
 } from "../../styles/Directory";
 import { useNavigate } from "react-router-dom";
-import useGet from "../../hooks/useGet";
-import Loader from "../../component/loader";
+import Loader from "component/loader";
+import useGet from "hooks/useGet";
 
-const Directory = () => {
+const Home = () => {
   const [userList, setUserList] = useState([]);
   const navigate = useNavigate();
 
@@ -76,4 +76,4 @@ const Directory = () => {
   );
 };
 
-export default Directory;
+export default Home;
